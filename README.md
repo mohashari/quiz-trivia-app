@@ -1,31 +1,34 @@
-# Quiz / Trivia App — React + Vite + Tailwind CSS + Open Trivia DB API
+# Quiz Time
 
-Category selection, countdown timer, score tracking, leaderboard, and social share.
+Trivia quiz app with category/difficulty selection, countdown timer, and leaderboard.
 
 ## Tech Stack
 
-See [CODING-PLAN.md](../CODING-PLAN.md) for full implementation plan and phases.
+- **Framework**: Next.js 14 (App Router)
+- **UI**: Material UI (MUI) v5
+- **Language**: TypeScript
+- **API**: Open Trivia DB (free, no key required)
 
-## Status
+## Features
 
-🚧 **In Progress**
+- 24 categories + any difficulty (easy / medium / hard)
+- 20-second countdown timer per question with color feedback
+- Instant right/wrong answer reveal
+- Score tracking across all questions
+- Local leaderboard saved in `localStorage` (top 10)
+- Share your score via Web Share API
+- Dark / light mode
 
 ## Setup
 
 ```bash
-# Clone the repo
 git clone https://github.com/mohashari/quiz-trivia-app.git
 cd quiz-trivia-app
-
-# Install dependencies
 npm install
-
-# Copy environment variables
-cp .env.example .env
-
-# Start development server
 npm run dev
 ```
+
+No API key needed — Open Trivia DB is free and open.
 
 ## Live Demo
 
