@@ -30,6 +30,12 @@ npm run dev
 
 No API key needed — Open Trivia DB is free and open.
 
+## Screenshots
+
+| Setup | Question | Answer Reveal |
+|---|---|---|
+| ![Setup](public/screenshots/screenshot-setup.png) | ![Question](public/screenshots/screenshot-question.png) | ![Answer](public/screenshots/screenshot-answer.png) |
+
 ## Live Demo
 
 _Coming soon_
